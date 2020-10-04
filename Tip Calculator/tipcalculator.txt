@@ -1,0 +1,40 @@
+Constraints:
+-Inputs can not be negative.
+-tipRate can be 0.
+-tipRate can not be decimal.
+-billAmount can contain decilmals but not less than 0.05
+-Inputs must be number.
+
+
+Initialize billAmount.
+Initialize rapensAmount.
+Initialize tipRate as 0.
+Initialize tipAmount.
+
+
+
+prompt "Please enter the bill amount."
+
+If billAmount <= 0 prompt "Please enter a valid amount."
+
+else
+
+prompt "Please enter rapen amount."
+
+If (rapensAmount % 5) != 0 prompt "Please enter an amount of multiples of 5."
+
+else
+
+prompt "Please enter the tip rate."
+
+If tipRate < 0 || tipRate = ""   prompt"Please enter valid rate. Rate can not have %."
+
+
+tipAmount = (billAmount*(tipRate/100)).
+
+print "Bill amount  :  " + billAmount.
+print "Tip          :  " + tipRate + "%".  
+print "Tip amount   :  " + tipAmount.
+print "Total amount :  " (billAmount+tipAmount).
+
+

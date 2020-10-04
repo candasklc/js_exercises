@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(175, 175, 175, 0.5);
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.inputs-section{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    max-height: 1em;
+    width: 30%;
+}
+button{
+    width: 20%;
+}
+
+.total-section{
+    width: 20%;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    display: inline;
+}
+.total-amount.total-tip{
+    width: 30%;
+}
+    
+hr{
+   
+    width: 40%;
+}

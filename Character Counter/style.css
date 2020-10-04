@@ -1,0 +1,22 @@
+body{
+    background-color: rgba(175, 175, 175, 0.5);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1 h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(68, 68, 68);
+    
+}
+hr{
+    height: 2em;
+    width: 100%;
+}

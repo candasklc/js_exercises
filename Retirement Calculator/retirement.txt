@@ -1,0 +1,13 @@
+Constraint:
+-Inputs must be numbers.
+
+
+Initialize current age.
+Initialize retirement age.
+Initialize remainingYears = retirement age - current age.
+
+prompt please enter your age.
+prompt please enter the age at which you want to retire.
+print "You have remainingYears left to retire."
+
+print  "it is 'current year', you can retire in current year + remaining years."
