@@ -9,4 +9,4 @@ var randomJob = Math.floor(Math.random()*jobTitle.length);
 var randomPet = Math.floor(Math.random()*pets.length);
 //======================Select the datas randomly!!!==========================
 
-document.getElementById("demo").innerHTML = "You will be married with " + partnersName[randomPartner] + ", work as " + jobTitle[randomJob] + " and live happily ever after with your " + Math.floor(Math.random()*50+1)+ " crazy " + pets[randomPet] + "s."
+document.getElementById("demo").innerHTML = "You will be married with " + partnersName[randomPartner] + ", work as " + jobTitle[randomJob] + " and live happily ever after with your " + Math.floor(Math.random()*50+2)+ " crazy " + pets[randomPet] + "s."
