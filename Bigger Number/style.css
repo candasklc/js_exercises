@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(48, 48, 48);
+    color: rgb(252, 245, 233);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+article{
+    display: flex;
+}
+div{
+    margin: 50px;
+}
+h1{
+    margin: 0;
+}
+hr{
+    width: 60%;
+}
+button{
+    font-size: large;
+    font-weight: 500;
+    background-color: rgb(252, 245, 233);
+}
