@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
 </head>
 <body>
-    
+    <header>
+        <i class="fa fa-refresh"></i>
+        <h2 id="date"></h2>
+    </header>
+
+    <section class="content">
+        <ul id="list">
+            <li class="item">
+                <i class="fa fa-circle-thin complete" type="radio"  name="" id="complete"></i>
+                <p class="text"></p>
+                <i class="fa fa-trash-o delete" type="radio" name="" id="delete"></i>
+            </li>
+        </ul>
+    </section>
+
+    <div class="add-todo">
+        <i class="fa fa-plus-circle"></i>
+        <input type="text" id="input" placeholder="Add something to do">
+
+    </div>
+
+
+<script src="script.js"></script>
 </body>
 </html>
